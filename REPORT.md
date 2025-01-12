@@ -19,7 +19,11 @@
 
 ## Equipa
 
-Indicar o nome completo de todos os elementos do grupo, bem como respetivo número de estudante.
+Rafael da Rocha Lima | 20241636
+Francisco Pascoal Matos da Silva | 20241293
+Daniel Alexandre Mbeya Paulo | 20240992
+Carlos Alexandre Avelino Lima | 20240470
+
 
 ## Distribuição de Tarefas
 
