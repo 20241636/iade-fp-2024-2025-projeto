@@ -338,32 +338,7 @@ class Xadrez
         }
     }
 
-
-
-    // Método para ler um objeto JSON de um arquivo
-    public static T LoadFromFile<T>(string filePath)
-    {
-        try
-        {
-            if (!File.Exists(filePath))
-            {
-                throw new FileNotFoundException($"O arquivo {filePath} não foi encontrado.");
-            }
-
-            // Lê o conteúdo do arquivo
-            string jsonString = File.ReadAllText(filePath);
-
-            // Desserializa o JSON para um objeto
-            return JsonSerializer.Deserialize<T>(jsonString);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Erro ao ler o arquivo: {ex.Message}");
-            return default;
-        }
-    }
-
-
+  
     public bool RegistarJogador(string nomeNovoJogador)
     {
         if (verificarJogadorExiste(nomeNovoJogador))
