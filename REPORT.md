@@ -39,7 +39,10 @@ Carlos Alexandre Avelino Lima | 20240470
 
 ## Arquitetura da Solução
 
-Apresentar uma descrição da solução, com destaque para a forma como o programa foi estruturado e organizado.
+A solução construída é composta por uma classe "Program" onde se corre o "main". Neste main é criada uma instância da classe Xadrez (explicada mais à frente) e é executado o método "executaJogo()", que vai processar todos os comandos introduzidos pelo utilizador.
+Em termos de estrutura de classes, existe a classe Xadrez, que contém as variáveis "lista de jogadores" e "jogo em curso". Cada jogador é mapeado numa classe "Jogador", e o jogo em curso é mapeado numa classe Jogo, que é a classe mais importante e complexa do programa.
+A classe Jogador apresenta o nome do jogador e o seu palmarés (número de jogos, vitórias, empates e derrotas).
+Relativamente à classe Jogo, esta representa um jogo entre 2 jogadores (jogador A e jogador B), um tabuleiro de xadrez (matriz 8x8 de entradas do tipo "Peca"), turno do jogador que deve jogar de seguida, posição dos reis e se os mesmos estão em check (para validar ações de validação de check e checkmate) e último movimento efetuado no jogo (para se analisar a operação de enpassant). 
 
 Evidenciar principais algoritmos implementados e estruturas de dados utilizadas.
 
