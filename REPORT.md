@@ -45,8 +45,9 @@ A classe Jogador apresenta o nome do jogador e o seu palmarés (número de jogos
 Relativamente à classe Jogo, esta representa um jogo entre 2 jogadores (jogador A e jogador B), um tabuleiro de xadrez (matriz 8x8 de entradas do tipo "Peca"), turno do jogador que deve jogar de seguida, posição dos reis e se os mesmos estão em check (para validar ações de validação de check e checkmate) e último movimento efetuado no jogo (para se analisar a operação de enpassant). 
 
 Principais algoritmos efetuados:
-  - ExecutaJogo() - onde se lê as opções do utilizador e se dá ordem de execução, ou erro, mediante a boa estrutura das instruções. Este é o método principal que vai chamar todas as operações de registo de jogadores, listagem, movimento de peças, operações especiais, gravar ficheiro, ler ficheiro e sair do programa.
-  - 
+  - Método ExecutaJogo - onde se lê as opções do utilizador e se dá ordem de execução, ou erro, mediante a boa estrutura das instruções. Este é o método principal que vai chamar todas as operações de registo de jogadores, listagem, movimento de peças, operações especiais, gravar ficheiro, ler ficheiro e sair do programa.
+  - Método RegistarJogador - Verifica se jogador já existe, e em caso negativo regista novo jogador, acrescentando-o à lista de jogadores.
+  - Método ListarJogador - Lista 
 ## Observações
 
 Descrever eventuais problemas encontrados e soluções adotadas.

@@ -338,7 +338,7 @@ class Xadrez
         }
     }
 
-  
+
     public bool RegistarJogador(string nomeNovoJogador)
     {
         if (verificarJogadorExiste(nomeNovoJogador))
@@ -374,27 +374,7 @@ class Xadrez
             Console.WriteLine("Sem jogadores registados.");
         }
         else
-        {
-            static int PorVitorias(Jogador j1, Jogador j2)
-            {
-                return j2.NumVitorias - j1.NumVitorias;
-            }
-            static int PorNome(Jogador j1, Jogador j2)
-            {
-                return j1.NomeJogador.CompareTo(j2.NomeJogador);
-            }
-            static int PorVitoriasDepoisNome(Jogador j1, Jogador j2)
-            {
-                int NumVitoriasComparison = PorVitorias(j1, j2);
-                if (NumVitoriasComparison != 0)
-                {
-                    return NumVitoriasComparison;
-                }
-                return PorNome(j1, j2);
-            }
-
-            jogadores.Sort(PorVitoriasDepoisNome);
-
+        {            
             for (int i = 0; i < jogadores.Count; i++)
             {
                 Console.WriteLine(jogadores[i].NomeJogador + " " + jogadores[i].NumJogos + " " + jogadores[i].NumVitorias + " " + jogadores[i].NumEmpates + " " + jogadores[i].NumDerrotas);
