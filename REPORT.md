@@ -20,14 +20,22 @@
 ## Equipa
 
 Rafael da Rocha Lima | 20241636
+
 Francisco Pascoal Matos da Silva | 20241293
+
 Daniel Alexandre Mbeya Paulo | 20240992
+
 Carlos Alexandre Avelino Lima | 20240470
 
 
 ## Distribuição de Tarefas
 
-Indicar a forma como o trabalho foi distribuído pelo grupo, i.e., quem fez o quê.
+•	Daniel Paulo e Francisco da Silva: Construção do Fluxograma;
+
+•	Rafael Lima, Carlos Lima, Daniel Paulo, Francisco Silva: Construção do Código;
+
+•	Carlos Lima e Rafael Lima: Relatório.
+
 
 ## Arquitetura da Solução
 
